@@ -16,9 +16,9 @@ The goal was to:
    - Ran the server script (my-server.py) in the Codespace and the client script (my-calls.py) locally.
    - Confirmed the connection by sending a GET request to the server and receiving a response.
 2. Implement Web Token System
-Added login functionality to generate a JSON Web Token (JWT) on the /login endpoint.
-Sent the token in the Authorization header for POST requests to the /echo endpoint.
-Tested both valid and invalid tokens to verify that only authorized requests were processed.
+   - Added login functionality to generate a JSON Web Token (JWT) on the /login endpoint.
+   - Sent the token in the Authorization header for POST requests to the /echo endpoint.
+   - Tested both valid and invalid tokens to verify that only authorized requests were processed.
 ## How It Works
    - Server: Hosts endpoints for login and token-based authorization using Flask.
    - Client: Sends HTTP requests to log in, receive a token, and make secure calls with the token.
